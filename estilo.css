@@ -1,0 +1,139 @@
+marquee{
+    color: #d9f7db;    
+    text-align: center;
+    font-size: 3em;
+    border-color:#000 #fafafa #fafafa #000;
+    position: relative;
+    
+    margin-bottom: 2%;
+
+
+} 
+
+*{
+    padding: 0px;
+    margin: auto;
+}    
+
+a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+body#fase1{
+    font-family: arial;
+    background-color: #0a110a;
+    background-size: 100% 100%;
+    background-image: url("img/solar.gif");
+    margin: auto;
+}
+body#fase2{
+    font-family: arial;
+    background-color: #0a110a;
+    background-size: 100% 100%;
+    background-image: url("img/laxia.gif");
+} 
+ul{
+    list-style: none;
+    
+    
+}
+a:hover{
+   background-color: rgb(176,224,230); 
+   color: black;
+}
+img:hover{
+   background-color: rgb(176,224,230); 
+   color: black;
+   cursor: pointer;
+
+}
+
+h1{
+    color: #7CFC00;
+    font-family:Brush Script MT,arial,helvetica;
+    text-align: center;
+    font-size: 1em;
+    /*background-color: #006400;*/
+    border-color:#000 #fafafa #fafafa #000;
+    font-style: italic;
+
+}
+
+
+footer {
+    
+    width: 30%;
+    padding: 10px 10%;
+    margin-bottom: 5%;
+    
+    /*border-style: dashed ;*/
+
+}
+
+
+footer .right .redes li {
+    
+    float:left;
+    z-index: -2;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+footer .right .redes li a{
+    text-decoration: none;
+    color: #191970;
+    
+}
+.container-fluid {
+    width: 40%;
+    padding-bottom: 2%;
+  }
+
+#cardboard {
+    width: 90%;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .memory-card {
+    width: calc(25% - 10px);
+    height: 25%;
+    margin: 5px;
+    transform-style: preserve-3d;
+    transition: 0.3s;
+    position: relative;
+  }
+  
+  .memory-card:active {
+    transform: scale(0.97);
+  }
+  
+  .memory-card.flip {
+    transform: rotateY(180deg);
+  }
+  
+  .front-face,
+  .back-face {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    background: #161615;
+    padding-left: 10px;
+    border-radius: 100%;
+  }
+  
+  .front-face {
+    transform: rotateY(180deg);
+  }
+  
